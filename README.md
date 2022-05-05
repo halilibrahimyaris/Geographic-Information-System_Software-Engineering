@@ -148,12 +148,7 @@ Facade Pattern implementation in Java.
 
 
 
-
-
-
-
-
-
 •	Test.java and program output
+
 ![resim](https://user-images.githubusercontent.com/41449476/166919650-cfa28479-d855-4393-9c79-352e65400a3b.png)
 
