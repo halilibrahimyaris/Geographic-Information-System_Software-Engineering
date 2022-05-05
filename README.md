@@ -22,14 +22,16 @@ Object Functionalities
 •	Database Object is responsible to keeping our data and maps. And also we can export our maps three different file format like real GIS such as shx or shp.
 
 2. Use case diagram 
-![resim](https://user-images.githubusercontent.com/41449476/166919507-5ad9a205-e2e3-4d16-99c0-6c831d4c51e8.png)
+
+![SoftwareEngineering-Page-4](https://user-images.githubusercontent.com/41449476/166920091-e87ad9f1-f085-4fd1-a437-6e1ffe7888cf.png)
 
 
 •	In this part of my project, I create a Use Case diagram. In this use case diagram, I try to show my system’s functionality. Our user has two main process One of them these processes is creating a map. User has to login on my system before the creating map. So that reason I use include relationship between these two cases. User’s create map request has to accept by the system and again I use the include relationship. After these operations Analysts takes user inputs and make some analyses on these inputs and analysts creates a map for user. If user set his map properties savable System can save this map on database. So that reason I use extend relationship on this point. 
 
 •	The other process is search a map. In this action user can set some filters about map that is searching by user. But this is an optional thing in my system. Even if user do not apply a filter on that map system will show a basic world map to user. So that reason  I use extends relationship at this point.
 3. Activity diagram
-![resim](https://user-images.githubusercontent.com/41449476/166919527-0e09a463-0a58-4ece-bf5c-833925dd8677.png)
+
+![SoftwareEngineering-Page-3 (2)](https://user-images.githubusercontent.com/41449476/166920044-479d7e83-1b1a-4fdf-b33f-4237f48322dc.png)
 
 
 
@@ -42,9 +44,8 @@ In this part of project, I make an Activity Diagram. And this diagram shows us a
 
 4. Class diagram
 
-![resim](https://user-images.githubusercontent.com/41449476/166919544-c44a9e31-6e75-4f0c-a666-6a6082393321.png)
 
-
+![SoftwareEngineering-Page-2](https://user-images.githubusercontent.com/41449476/166920017-712c14d2-e17b-42ec-8fd3-7e7767f475c9.png)
 
 
  
