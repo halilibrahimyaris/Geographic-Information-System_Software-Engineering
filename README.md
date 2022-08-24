@@ -64,14 +64,10 @@ I used Facade pattern in my project as a creational pattern. Facade is a structu
 Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable. In my system user can get his map 3 different file formats. So that reason I decide use strategy pattern at this point. Because we have one operation, but we can this operation three different ways. During the application of this pattern I defined a interface for setting my saving strategy. 3 different class implements this interface and they have same method but theirs return types are different. They are return three different file format on theirs function. Also for this point I defined an interface called getFile. And 3 different class implements this interface. I define these classes and these structure for using strategy pattern classes return types.
 
  
-6. Code one of the pattern according to your assignment.
 
-Facade Pattern implementation in Java.
 
-•	MyPoint.java
 
 
-![resim](https://user-images.githubusercontent.com/41449476/166919561-eeaf2d92-eb63-47c4-8108-95bed83f30ec.png)
 
 
 
@@ -83,72 +79,10 @@ Facade Pattern implementation in Java.
 
 
 
-•	MyLine.java
 
 
 
-![resim](https://user-images.githubusercontent.com/41449476/166919577-5bce5e45-86ed-437b-a3d3-1afd6e488423.png)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-•	MyPolygon.java
-
-
-![resim](https://user-images.githubusercontent.com/41449476/166919586-7fec93e6-1f5e-42fe-ad9d-62e229dff37d.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-•	FacadeForFeature.java
-
-
-![resim](https://user-images.githubusercontent.com/41449476/166919605-4134f5e3-c26d-4d5f-a21d-b501152ccd02.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-•	Test.java and program output
-
-![resim](https://user-images.githubusercontent.com/41449476/166919650-cfa28479-d855-4393-9c79-352e65400a3b.png)
 
